@@ -1,0 +1,180 @@
+/*
+ Theme Name:   Digital Sociology Course Theme
+ Theme URI:    http://
+ Description:  Digital Sociology Course Theme
+ Author:       Tom Woodward
+ Author URI:   http://bionicteaching.com
+ Template:     wp-bootstrap
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  boot-boot-boot
+*/
+#content {
+    margin-top: 40px;
+}
+
+.lead {
+    font-size: 1em;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-family: "Goudy Old Style", "Sorts Mill Goudy", "Garamond", "Big Calson", serif;
+}
+
+body.admin-bar .navbar-fixed-top {
+    margin-top: 68px;
+}
+
+a {
+	color:#BE3F21;
+}
+
+a:hover {
+	color: #000;
+}
+
+.response p, .response p a{
+	color:black;
+	text-decoration: none;
+}
+
+
+.page-header, .page-header a{
+	padding-bottom: 5px;
+    margin: 20px 0 20px;
+    border-bottom: none;
+    background-color: #768692;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+h1.page-title, h1.page-header{
+    padding: 0px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+#widget-footer {
+    background-color: #E9DF97;
+    color: #987A42;
+    padding-top:20px;
+}
+
+
+.response {
+	display: inline-block;
+    width: 100%;
+    border: 1px solid #efefef;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.response:hover {
+	background-color: #efefef;
+} 
+
+
+.banner {
+    position: relative;
+    height:250px;
+    margin-bottom: 55px;
+
+}
+.banner img {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* corresponds to max height of 450px */
+    margin: 0 auto;
+}
+
+.navbar .container, .collapse, .navbar-collapse, .navbar-responsive-collapse, .navbar, .navbar-default, .navbar-fixed-top {
+	background-color: ##f8f8f8;
+}
+
+#sidebar1 {
+	margin-top: 20px;
+}
+
+.btn-success {
+    color: #000;
+    background-color: #f8f8f8;
+    border-color: #efefef;
+   }
+
+ .btn-success:hover{
+ 	background-color: #efefef;
+ 	color: #000;
+ 	border-color: #f8f8f8;
+ }
+
+#main p.meta {
+    display: none;
+}
+/*
+category list plugin styling 
+*/
+
+.listing-item {
+	display: inline-block;
+    width: 100%;
+    border: 1px solid #BE3F21;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.listing-item .title {
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.listing-item img {
+	display: inline-block;
+	float:left;
+	padding: 5px 10px 5px 5px;
+}
+
+
+#s, #searchform {
+width: 80px;
+}
+
+.navbar {
+      position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 800;
+}
+
+#main article.altlab-postgrid-brick {
+    padding: 15px;
+}
+
+.brand-pad {
+  margin-top: 64px;
+}
+
+.pad-for-admin {
+    margin-top: 28px;
+}
+
+@media(max-width:767px){
+    .listing-item {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #BE3F21;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+}
+
